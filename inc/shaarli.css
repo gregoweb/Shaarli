@@ -1,7 +1,7 @@
 :root {
 
     --blue: #007bff;
-    --indigo: #6610f2;
+    --indigo: #33007A/*#6610f2*/;
     --purple: #6f42c1;
     --pink: #e83e8c;
     --red: #dc3545;
@@ -20,7 +20,7 @@
     --warning: #ffc107;
     --danger: #dc3545;
     --light: #f8f9fa;
-    --dark: #343a40;
+    --dark: #000;/* #343a40;*/
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
@@ -183,8 +183,8 @@ a:hover {
 .btn-dark {
 
     color: #fff;
-    background-color: #343a40;
-    border-color: #343a40;
+    background-color: var(--indigo);
+    border-color: var(--indigo);
 
 }
 .btn-dark:hover {
